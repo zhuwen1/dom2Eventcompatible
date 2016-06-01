@@ -6,3 +6,4 @@ chorme某型下使用addEventListener,removeEventListener
 
 
 虽然理论上是这样可以完成的，但是实际上不是这么显示，ie有毒。。。。
+兼容ie9以下版本
