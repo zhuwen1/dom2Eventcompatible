@@ -1,0 +1,8 @@
+# dom2Eventcompatible
+关于ie浏览下兼容使用dom2级加载事件的方式
+解决dom2级在ie模型下和chrome模型下的兼容性问题
+ie模型下用attechEvent,detachEvent 
+chorme某型下使用addEventListener,removeEventListener
+
+
+虽然理论上是这样可以完成的，但是实际上不是这么显示，ie有毒。。。。
