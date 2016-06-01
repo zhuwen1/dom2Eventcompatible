@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="eventUnit.js"></script>
+</head>
+<body>
+	<input type="button" value="按钮" id="btn">
+	<script>
+		function msg(){
+			alert("hell,world");
+		}
+		var btn = document.getElementById('btn');
+		eventUnit.addHandler(btn,'click',msg);
+		eventUnit.removeHandler(btn,'click',msg);
+	</script>
+</body>
+</html>
