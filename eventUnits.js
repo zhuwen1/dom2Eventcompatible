@@ -26,10 +26,10 @@ var eventUnit ={
 	//获取事件类型
 	getType:function(event){
 		return event.type;
-	}
+	},
 	getElement:function(event){
 		return event.target||event.srcElement;
-	}
+	},
 	//获取事件
 	getEvent:function(event){
 		return event?event:window.event;
